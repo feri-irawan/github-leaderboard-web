@@ -67,7 +67,7 @@ export default function Users() {
         Top {usersGlobal.length} pengguna Github dengan jumlah repositori
         terbanyak sedunia {date}.
       </p>
-      <Table users={usersGlobal} fieldName="Followers" fieldKey="followers" />
+      <Table users={usersGlobal} fieldName="Repositories" fieldKey="public_repos" />
 
       <h2>By Location</h2>
       <p>
